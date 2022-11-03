@@ -6,9 +6,9 @@ public class test07 {
 	public static void main(String[] args) {
 		int result = 0;
 		for(int i=1; i<1000; i++) {
-			if(i%3==0 || i%5==0) {
+			if(i%3==0 || i%5==0) {	//3or5
 				result+=i;
-				System.out.println("3or5의 배수: "+i);
+				System.out.println("3or5의 배수: "+i); //맞는지 확인
 			}
 			
 		}
